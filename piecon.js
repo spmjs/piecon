@@ -178,5 +178,5 @@
     };
 
     Piecon.setOptions(defaults);
-    window.Piecon = Piecon;
+    module.exports = Piecon;
 })();
